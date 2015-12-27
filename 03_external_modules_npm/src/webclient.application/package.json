@@ -1,0 +1,15 @@
+{
+  "name": "webclient.application",
+	"private": true,
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+		"webclient.servicea": "0.0.1",
+		"webclient.serviceb": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}

@@ -211,4 +211,9 @@ _Pvt_Extensions/
 ModelManifest.xml
 /src/tsvnext/wwwroot/lib
 /src/serverapp.web/wwwroot/lib
+/01_simple_concat/src/WebApp/wwwroot/lib
 /01_simple_concat/src/WebApp/wwwroot/app
+/02_external_modules_naive/src/WebApp/wwwroot/app
+/03_external_modules_npm/src/WebApp/wwwroot/app
+/03_external_modules_npm/src/WebApp/wwwroot/lib
+/02_external_modules_naive/src/WebApp/wwwroot/lib
