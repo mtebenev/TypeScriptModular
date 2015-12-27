@@ -1,0 +1,6 @@
+{
+  "links": {
+    "webclient.servicea": "webclient.application",
+    "webclient.serviceb": "webclient.application"
+  }
+}

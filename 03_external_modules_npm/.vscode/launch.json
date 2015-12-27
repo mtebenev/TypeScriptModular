@@ -1,0 +1,23 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "test chrome",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:8080/index.html",
+			"sourceMaps": true,
+			"diagnosticLogging": true,
+			"webRoot": "wwwroot"
+		},
+		{
+			"name": "attach to chrome",
+			"type": "chrome",
+			"port": 9222,
+			"request": "attach",
+			"sourceMaps": true,
+			"diagnosticLogging": true,
+			"webRoot": "${workspaceRoot}/src/WebApp/wwwroot"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+</head>
+<body>
+
+  <span>Check console for service messages</span>
+
+  <script src="/lib/system.js/dist/system.js"></script>
+  <script>
+    // set our baseURL reference path
+    System.config({
+      baseURL: '/app',
+      defaultJSExtensions: true // TODO: deprecated.
+    });
+
+    // loads /app/main.js
+    System.import('webclient.application/Main.js');
+  </script>
+
+</body>
+</html>
